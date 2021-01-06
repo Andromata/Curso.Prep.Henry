@@ -4,21 +4,32 @@ body {
 }
 
 h1 {
-    color: blueviolet;
-}       
+    color: rgb(31, 255, 23);
+}     
+
 
 img {
-    width: 300px;
+    width: 400px;
+ 
     
+}
+
+.divClass { 
+    text-align: center;
+    margin: auto;
 }
 
 #ThirdDiv {
     height: 600px; 
     width: 500px; 
     background:  cornflowerblue; 
-    padding: 
-    50px; 
-    border:10px dashed cyan;
+    padding:50px; 
+    border:5px dashed cyan;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
-#spanId {font-size: 18px; margin: 50px;
+#spanId {font-size: 18px; margin: 50px; text-align: center;
 }
+

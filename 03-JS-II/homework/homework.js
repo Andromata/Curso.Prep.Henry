@@ -23,11 +23,14 @@ function saludo(idioma) {
   // Tu código:
   if(idioma==="aleman") {
     return "Guten Tag!";
-  } else if(idioma==="mandarin") {
+  }
+   else if(idioma==="mandarin") {
     return "Ni Hao!";
-  } else if(idioma==="ingles") {
+  }
+   else if(idioma==="ingles") {
     return "Hello!"
-  } else return "Hola!";
+  }
+   else return "Hola!";
 
 }
 
@@ -54,7 +57,9 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  return numero % 1 === 0
+  //return numero % 1 === 0
+  if(Number.isInteger(numero))
+  return true;
 }
 
 function fizzBuzz(numero) {
